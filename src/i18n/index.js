@@ -1,3 +1,1 @@
-import T from './T.jsx';
-
-export default T;
+export { default as T } from "./T.jsx";
