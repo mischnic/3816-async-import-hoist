@@ -1,5 +1,5 @@
 import T from "./i18n";
 
-import Diagram from "./Diagram";
+const version = import("./version");
 
-console.log(T("index"), Diagram());
+console.log(T("index"), version.then(v => "Diagram" + v.default()));
