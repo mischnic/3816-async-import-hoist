@@ -1,5 +1,5 @@
-import Section from "./Section";
+import T from "./i18n";
 
 export default function() {
-	return "Version: " + Section("some name");
+	return "Version: " + T("some name");
 }
